@@ -6,30 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/dd3dac1439.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Merriweather" />
     <title>University</title>
 </head>
 <body>
+
+    <div class="nav">
+        <a href="./index.html">Maxify</a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa-solid fa-xmark" onclick="closeMenu()"></i>
+            <ul>
+                <li><a href="./index.html">HOME</a></li>
+                <li><a href="./about.html">ABOUT</a></li>
+                <li><a href="./course.html">COURSE</a></li>
+                <li><a href="./blog.html">BLOG</a></li>
+                <li><a href="./contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa-solid fa-bars" onclick="openMenu()"></i>
+    </div><!--NAV-BAR ENDS HERE-->
+
     <section class="landing-page">
-        <div class="nav">
-            <a href="./index.html"><img src="./img/logo.png" alt=""></a>
-            <div class="nav-links" id="navLinks">
-                <i class="fa-solid fa-xmark" onclick="closeMenu()"></i>
-                <ul>
-                    <li><a href="./index.html">HOME</a></li>
-                    <li><a href="./about.html">ABOUT</a></li>
-                    <li><a href="./course.html">COURSE</a></li>
-                    <li><a href="./blog.html">BLOG</a></li>
-                    <li><a href="./contact.html">CONTACT</a></li>
-                </ul>
-            </div>
-            <i class="fa-solid fa-bars" onclick="openMenu()"></i>
-        </div><!--NAV-BAR ENDS HERE-->
 
         <div class="text-box">
             <h1>World's Best University</h1>
             <p>Lorem ipsum dolor sit amet consectetu Dignissimos sint aspernatur soluta molestias, perspiciatis<br /> temporibus accusamus culpa voluptate quam fuga
             </p>
-            <a class="visit-btn" href="">Visit Us To Know More</a>
+            <a class="visit-btn" href="./blog.html">Visit Us To Know More</a>
         </div>
     </section><!--LANDING-PAGE ENDS HERE-->
 
@@ -155,7 +159,7 @@
 
     <section class="enroll">
         <h1>Enroll For The Best Education System<br /> Any Where In The World</h1>
-        <a href="" class="contact-button">CONTACT US</a>
+        <a href="./contact.html" class="contact-button">CONTACT US</a>
     </section>
 
     <!-- Footer -->
@@ -174,9 +178,9 @@
             <i class="fa-brands fa-instagram icon-links"></i>
             <i class="fa-brands fa-linkedin-in icon-links"></i>
         </div>
-        <p>Made with <i class="fa-regular fa-heart"></i> with E-Maxify</p>
+        <p>Made with <i class="fa-solid fa-heart"></i> by E-Maxify&copy;</p>
     </section>
 
-<script src="./script.js"></script>
+<script src="./script/script.js"></script>
 </body>
 </html>
