@@ -15,6 +15,7 @@ h1{
 body{
     background: #fff;
     font-family: Poppins;
+    overflow-x: hidden;
 }
 .landing-page{
     width: 100%;
