@@ -91,6 +91,10 @@ body{
 }
 
 @media(max-width: 700px){
+    body{
+        overflow-x: hidden;
+        width: 100%;
+    }
     .landing-page{
         overflow-x: hidden;
     }
@@ -114,6 +118,7 @@ body{
         z-index: 2;
         font-size: 15px;
         transition: 1s;
+        display: none;
     }
     .nav .fa-xmark, .fa-bars{
         display: block;
